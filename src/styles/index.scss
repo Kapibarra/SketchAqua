@@ -1,0 +1,147 @@
+@import '_variables';
+@import 'about';
+@import 'contacts';
+@import 'header';
+@import 'mainpage';
+@import 'shop';
+@import 'footer';
+@import url('https://fonts.googleapis.com/css2?family=Poiret+One&display=swap');
+html {
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: -webkit-flex;
+    display: flex;
+    height: 100%;
+}
+
+body {
+    background-color: #fff;
+    width: 100%;
+    font-family: $font-family;
+}
+
+.page {
+    width: 100%;
+    max-width: 1400px;
+    margin: 0 auto;
+}
+
+.fade {
+    opacity: 0;
+}
+
+img {
+    display: none;
+}
+
+canvas {
+    left: 53%;
+    max-height: 90%;
+    max-width: 90%;
+    position: absolute;
+    top: 55%;
+    z-index: 1;
+}
+
+.top {
+    z-index: 9999;
+}
+
+.logo {
+    background-image: url(../../img/logo2.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 230px;
+    width: 240px;
+    margin: 0 auto;
+}
+
+.menu {
+    background-image: url(img/top_menu.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 7px;
+    position: absolute;
+    right: 36px;
+    top: 34px;
+    width: 239px;
+}
+
+.mask {
+    position: absolute;
+}
+
+.mainheader__navigation {
+    display: -webkit-flex;
+    display: flex;
+    -webkit-justify-content: space-between;
+    justify-content: space-between;
+    margin: 0 auto;
+    width: 500px;
+    position: relative;
+}
+
+.mainheader__navigation-link {
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 70px;
+    font-size: $commontext;
+    z-index: 9999;
+}
+
+.mainpagesection__title {
+    width: 500px;
+    z-index: 9999;
+    animation-name: move;
+    animation-duration: 3s;
+    animation-fill-mode: both;
+    animation-delay: 3s;
+    position: relative;
+}
+
+.mainpagesection__title-text {
+    font-family: $font-family;
+    font-size: $h1;
+    position: absolute;
+    z-index: 9999;
+}
+
+.animation {
+    animation-name: move;
+    animation-duration: 0.6s;
+    animation-fill-mode: both;
+    animation-delay: 0.5s;
+}
+
+.a1 {
+    animation-delay: 0.5s;
+}
+
+@keyframes move {
+    0% {
+        opacity: 0;
+        visibility: hidden;
+        transform: translateY(-240px);
+    }
+    100% {
+        opacity: 1;
+        visibility: visible;
+        transform: translateY(0);
+    }
+}
+
+@keyframes left {
+    0% {
+        opacity: 0;
+        width: 0;
+    }
+    100% {
+        opacity: 1;
+        padding: 5px;
+        width: 440px;
+    }
+}

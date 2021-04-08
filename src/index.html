@@ -5,120 +5,32 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" src="index.css">
     <title>Document</title>
 </head>
 
 <body>
-    <style>
-        html {
-            background-position: center;
-            background-repeat: no-repeat;
-            background-size: cover;
-            display: -webkit-flex;
-            display: flex;
-            height: 100%;
-        }
-        
-        body {
-            background-color: #fff;
-            border-top-left-radius: 10px;
-            border-top-right-radius: 10px;
-            box-shadow: 0 0 20px 0 rgba(0, 0, 0, .1);
-            margin: 44px 44px 0;
-            position: relative;
-            width: 100%;
-        }
-        
-        .fade {
-            opacity: 0;
-        }
-        
-        img {
-            display: none;
-        }
-        
-        canvas {
-            left: 50%;
-            max-height: 100%;
-            max-width: 100%;
-            position: absolute;
-            top: 50%;
-        }
-        
-        .logo {
-            background-image: url(img/logo.png);
-            background-position: center;
-            background-repeat: no-repeat;
-            background-size: contain;
-            height: 27px;
-            left: 30px;
-            position: absolute;
-            top: 24px;
-            width: 29px;
-        }
-        
-        .menu {
-            background-image: url(img/top_menu.png);
-            background-position: center;
-            background-repeat: no-repeat;
-            background-size: contain;
-            height: 7px;
-            position: absolute;
-            right: 36px;
-            top: 34px;
-            width: 239px;
-        }
-        
-        .title {
-            background-image: url(img/bg.png);
-            background-position: center;
-            background-repeat: no-repeat;
-            background-size: contain;
-            height: 136px;
-            left: 50%;
-            margin-left: -165px;
-            margin-top: -58px;
-            position: absolute;
-            top: 50%;
-            width: 340px;
-        }
-        
-        .buttons {
-            display: -webkit-flex;
-            display: flex;
-            -webkit-justify-content: space-between;
-            justify-content: space-between;
-            left: 50%;
-            margin-left: -115px;
-            margin-top: 40px;
-            position: absolute;
-            top: 50%;
-            width: 230px;
-        }
-        
-        .icon {
-            background-position: center;
-            background-repeat: no-repeat;
-            background-size: contain;
-            height: 56px;
-            width: 56px;
-        }
-    </style>
-
-    <div class="fade">
-        <img src="img/splash.png">
-        <div class="top">
-            <div class="logo"></div>
-            <div class="menu"></div>
+    <div class="page">
+        <div class="fade">
+            <img src="img/splash.png">
+            <div class="top">
+                <div class="logo"></div>
+                <div class="menu"></div>
+            </div>
+            <div class="mask"></div>
+            <div class="mainheader__navigation">
+                <div class="mainheader__navigation-link"><a>Главная</a></div>
+                <div class="mainheader__navigation-link"><a>Об авторе</a></div>
+                <div class="mainheader__navigation-link"><a>Галерея</a></div>
+                <div class="mainheader__navigation-link"><a>Контакты</a></div>
+            </div>
         </div>
-        <div class="title"></div>
-        <div class="buttons">
-            <div class="icon"><a>TEST</a></div>
-            <div class="icon"><a>TEST</a></div>
-            <div class="icon"><a>TEST</a></div>
+        <div class="mainpagesection__title">
+            <p class="mainpagesection__title-text a1">
+                Картины акварелью, скетчи и открытки от художницы Светланы Рахимовой.
+            </p>
         </div>
     </div>
+    <script src="index.js"></script>
     <script src="src/js/three.js"></script>
     <script src="src/js/Aquarelle.js"></script>
     <script src="src/js/EffectComposer.js"></script>
@@ -130,14 +42,14 @@
     <script>
         var fade = document.querySelector('.fade');
         var topNav = document.querySelector('.top');
-        var title = document.querySelector('.title');
-        var icons = Array.prototype.slice.call(document.querySelectorAll('.icon'));
+        var title = document.querySelector('.mask');
+        var icons = Array.prototype.slice.call(document.querySelectorAll('.mainheader__navigation-link'));
 
         var image = document.getElementsByTagName('img')[0];
         var aquarelle = new Aquarelle(image, 'img/mask.png', {
             autoplay: true,
             loop: false,
-            duration: 15000,
+            duration: 8000,
         });
 
         aquarelle.addEventListener('created', function() {
