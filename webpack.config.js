@@ -56,6 +56,14 @@ module.exports = {
                 collapseWhitespace: isProd,
             },
         }),
+        new HTMLWebpackPlugin({
+            filename: "gallery.html",
+            template: "gallery.html",
+            minify: {
+                removeComments: isProd,
+                collapseWhitespace: isProd,
+            },
+        }),
         new MiniCssExtractPlugin({
             filename: filename("css"),
         }),
