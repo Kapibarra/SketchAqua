@@ -2,9 +2,13 @@
 .header {
     width: 100%;
     max-width: 1400px;
-    height: 240px;
+    height: 230px;
     display: flex;
     justify-content: space-between;
+    animation-name: move;
+    animation-duration: 2s;
+    animation-fill-mode: both;
+    animation-delay: 1.5s;
 }
 
 .logo {
@@ -34,4 +38,92 @@
     height: 70px;
     font-size: $commontext;
     z-index: 9999;
+    margin-top: 85px;
+}
+
+.about__main {
+    width: 100%;
+    max-width: 1400px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.about__main-content {
+    width: 490px;
+    margin: 0 auto;
+    animation-name: move;
+    animation-duration: 2s;
+    animation-fill-mode: both;
+    animation-delay: 1.5s;
+    & h2 {
+        margin-top: 50px;
+    }
+    & p {
+        margin-top: 50px;
+        font-size: $commontext;
+    }
+}
+
+.about__main-picture {
+    margin: 0 auto;
+    width: 100%;
+    max-width: 747px;
+    min-width: 300px;
+    animation-name: filter;
+    animation-duration: 4s;
+    animation-fill-mode: both;
+    animation-delay: 1.5s;
+}
+
+.animation {
+    animation-name: move;
+    animation-duration: 0.6s;
+    animation-fill-mode: both;
+    animation-delay: 0.5s;
+}
+
+.a1 {
+    animation-delay: 0.5s;
+}
+
+.a2 {
+    animation-delay: 2s
+}
+
+@keyframes move {
+    0% {
+        opacity: 0;
+        visibility: hidden;
+        transform: translateY(-240px);
+    }
+    100% {
+        opacity: 1;
+        visibility: visible;
+        transform: translateY(0);
+    }
+}
+
+@keyframes left {
+    0% {
+        opacity: 0;
+        transform: translateX(-540px);
+    }
+    100% {
+        opacity: 1;
+        transform: translateX(0px);
+        ;
+    }
+}
+
+@keyframes filter {
+    0% {
+        opacity: 0;
+        filter: grayscale(100);
+    }
+    100% {
+        opacity: 1;
+        filter: grayscale(0);
+    }
 }

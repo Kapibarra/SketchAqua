@@ -31,9 +31,27 @@ body {
     opacity: 0;
 }
 
-// img {
-//     display: none;
-// }
+.hr-line {
+    display: block;
+    margin: 0 auto;
+    border-top: 1px solid rgb(15, 0, 17);
+    width: 100%;
+    max-width: 1400px;
+    margin-bottom: 100px;
+}
+
+.button {
+    display: block;
+    margin: 0 auto;
+    width: 230px;
+    height: 40px;
+    border: none;
+    border-radius: 3px;
+    background-color: rgba(196, 196, 196, 0.6);
+    color: black;
+    font-family: $font-family;
+}
+
 canvas {
     left: 53%;
     max-height: 90%;
