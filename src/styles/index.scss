@@ -115,6 +115,11 @@ canvas {
     margin: unset;
 }
 
+.activelink {
+    background: url(../../img/hoverbg.png) no-repeat;
+    background-size: 100%;
+}
+
 .menu {
     background-image: url(img/top_menu.png);
     background-position: center;
@@ -148,6 +153,7 @@ canvas {
     height: 70px;
     font-size: $commontext;
     z-index: 9999;
+    text-align: center;
 }
 
 .mainpagesection__title {
