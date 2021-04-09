@@ -1,46 +1,4 @@
 @import '_variables';
-.header {
-    width: 100%;
-    max-width: 1400px;
-    height: 230px;
-    display: flex;
-    justify-content: space-between;
-    animation-name: move;
-    animation-duration: 2s;
-    animation-fill-mode: both;
-    animation-delay: 1.5s;
-}
-
-.logo {
-    background-image: url(../../img/logo2.png);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: contain;
-    height: 230px;
-    width: 240px;
-    margin: 0 auto;
-}
-
-.header__navigation {
-    display: -webkit-flex;
-    display: flex;
-    -webkit-justify-content: space-between;
-    justify-content: space-between;
-    margin: 0 auto;
-    width: 500px;
-    position: relative;
-}
-
-.header__navigation-link {
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: contain;
-    height: 70px;
-    font-size: $commontext;
-    z-index: 9999;
-    margin-top: 85px;
-}
-
 .about__main {
     width: 100%;
     max-width: 1400px;

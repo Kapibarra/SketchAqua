@@ -21,6 +21,16 @@ body {
     font-family: $font-family;
 }
 
+h1 {
+    font-family: $font-family;
+    font-size: $h1;
+}
+
+h2 {
+    font-family: $font-family;
+    font-size: $h2;
+}
+
 .page {
     width: 100%;
     max-width: 1400px;
@@ -128,66 +138,4 @@ canvas {
     font-size: $h1;
     position: absolute;
     z-index: 9999;
-}
-
-.mainpage__footer-icons-item {
-    width: 50px;
-    height: 50px;
-}
-
-.mainpage__footer-icons {
-    display: flex;
-    width: 200px;
-    justify-content: space-between;
-}
-
-.pagefooter {
-    display: flex;
-    width: 100%;
-    max-width: 1400px;
-    justify-content: space-between;
-    animation-name: move;
-    animation-duration: 3s;
-    animation-fill-mode: both;
-    animation-delay: 3s;
-}
-
-.mainpage__footer-copyright p {
-    vertical-align: middle;
-}
-
-.animation {
-    animation-name: move;
-    animation-duration: 0.6s;
-    animation-fill-mode: both;
-    animation-delay: 0.5s;
-}
-
-.a1 {
-    animation-delay: 0.5s;
-}
-
-@keyframes move {
-    0% {
-        opacity: 0;
-        visibility: hidden;
-        transform: translateY(-240px);
-    }
-    100% {
-        opacity: 1;
-        visibility: visible;
-        transform: translateY(0);
-    }
-}
-
-@keyframes left {
-    0% {
-        opacity: 0;
-        width: 0;
-    }
-    100% {
-        opacity: 1;
-        padding: 5px;
-        width: 440px;
-    }
 }
