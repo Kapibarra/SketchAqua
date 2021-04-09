@@ -25,7 +25,7 @@
     display: flex;
     -webkit-justify-content: space-between;
     justify-content: space-between;
-    margin: 0 auto;
+    margin: unset;
     width: 500px;
     position: relative;
 }
@@ -35,7 +35,15 @@
     background-repeat: no-repeat;
     background-size: contain;
     height: 70px;
+    width: 150px;
     font-size: $commontext;
     z-index: 9999;
     margin-top: 85px;
+    // background: url(../../img/hoverbg.png) no-repeat;
+    // background-size: 100%;
+    text-align: center;
+    & :hover {
+        background: url(../../img/hoverbg.png) no-repeat;
+        background-size: 100%;
+    }
 }

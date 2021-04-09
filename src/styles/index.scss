@@ -22,6 +22,7 @@ body {
 }
 
 h1 {
+    font-weight: normal;
     font-family: $font-family;
     font-size: $h1;
 }
@@ -31,10 +32,35 @@ h2 {
     font-size: $h2;
 }
 
+p {
+    font-size: $commontext;
+}
+
+li {
+    font-size: $commontext;
+}
+
+a {
+    display: block;
+    text-decoration: none;
+    color: black;
+    width: 150px;
+    line-height: 48px;
+    background: url(../../img/hoverbg.png) no-repeat;
+    background-size: 0%;
+}
+
+a:hover {
+    transition: all 0.3s;
+    background: url(../../img/hoverbg.png) no-repeat;
+    background-size: 100%;
+}
+
 .page {
     width: 100%;
     max-width: 1400px;
     margin: 0 auto;
+    padding: 10px;
 }
 
 .fade {
@@ -83,6 +109,10 @@ canvas {
     height: 230px;
     width: 240px;
     margin: 0 auto;
+}
+
+.header__logo {
+    margin: unset;
 }
 
 .menu {

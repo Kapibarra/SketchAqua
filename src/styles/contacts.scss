@@ -1,0 +1,135 @@
+@import "_variables";
+.contacts__main {
+    background: url(../../img/contactbg.png) no-repeat;
+    background-position: calc(100vw - 78vw);
+}
+
+.contacts__main-description {
+    animation-name: filter;
+    animation-duration: 4s;
+    animation-fill-mode: both;
+    animation-delay: 1.5s;
+}
+
+.small {
+    font-size: $smalltext;
+}
+
+.contacts__main-form {
+    margin: 0 auto;
+    width: 350px;
+}
+
+.contacts__main-form-title {
+    animation-name: filter;
+    animation-duration: 4s;
+    animation-fill-mode: both;
+    animation-delay: 1.5s;
+}
+
+::placeholder {
+    text-align: center;
+}
+
+.form {
+    max-width: 80%;
+    display: flex;
+    flex-direction: column;
+}
+
+.form>p {
+    text-align: center;
+}
+
+.form>p>a {
+    color: #000;
+    font-size: 14px;
+}
+
+.form-field {
+    height: 46px;
+    padding: 0 16px;
+    border: 2px solid #ddd;
+    background-color: rgba(228, 228, 228, 0.85);
+    border-radius: 4px;
+    font-family: 'Julius Sans One', sans-serif;
+    color: black;
+    outline: 0;
+    transition: .2s;
+    margin-top: 20px;
+}
+
+.form-field:focus {
+    border-color: rgba($color: #000, $alpha: 0.4)
+}
+
+.form>button {
+    padding: 12px 10px;
+    margin: 0 auto;
+    width: 250px;
+    border: 0;
+    background: linear-gradient(to right, #f1f1f1 0%, #e0e0e0 100%);
+    border-radius: 3px;
+    margin-top: 20px;
+    color: #fff;
+    letter-spacing: 1px;
+    font-family: 'Julius Sans One', sans-serif;
+    color: black;
+    cursor: pointer;
+}
+
+.animation {
+    animation-name: move;
+    animation-duration: 0.6s;
+    animation-fill-mode: both;
+    animation-delay: 0.5s;
+}
+
+.a1 {
+    animation-delay: 0.5s;
+}
+
+.a2 {
+    animation-delay: 0.6s;
+}
+
+.a3 {
+    animation-delay: 0.7s;
+}
+
+.a4 {
+    animation-delay: 0.8s;
+}
+
+.a5 {
+    animation-delay: 0.9s;
+}
+
+.a6 {
+    animation-delay: 1s;
+}
+
+@keyframes move {
+    0% {
+        opacity: 0;
+        visibility: hidden;
+        transform: translateY(-40px);
+    }
+    100% {
+        opacity: 1;
+        visibility: visible;
+        transform: translateY(0);
+    }
+}
+
+@keyframes left {
+    0% {
+        opacity: 0;
+        width: 0;
+    }
+    100% {
+        opacity: 1;
+        padding: 5px;
+        width: 440px;
+    }
+}
