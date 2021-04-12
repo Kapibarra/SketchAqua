@@ -56,6 +56,10 @@ a:hover {
     background-size: 100%;
 }
 
+.btn:hover {
+    background: unset;
+}
+
 .page {
     width: 100%;
     max-width: 1400px;
