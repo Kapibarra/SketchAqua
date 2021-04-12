@@ -72,6 +72,11 @@ a:hover {
     opacity: 0;
 }
 
+p {
+    margin-block-start: unset;
+    margin-block-end: unset;
+}
+
 .hr-line {
     display: block;
     margin: 0 auto;
@@ -168,7 +173,6 @@ canvas {
 .mainpagesection__title {
     display: block;
     height: 300px;
-    width: 500px;
     margin-bottom: 300px;
     z-index: 1;
     animation-name: move;
@@ -183,6 +187,10 @@ canvas {
     font-size: $h1;
     position: absolute;
     z-index: 1;
+}
+
+.mainpage__footer-icons-item {
+    vertical-align: middle;
 }
 
 .top-link {
@@ -260,5 +268,37 @@ canvas {
     }
     .nav-toggle {
         display: block;
+    }
+}
+
+@media screen and (max-width: 720px) {
+    .mainpagesection__title-text {
+        width: 300px;
+        font-size: 32px;
+    }
+    .mainpagesection__title {
+        margin-bottom: 170px;
+    }
+}
+
+@media screen and (max-width: 414px) {
+    .pagefooter {
+        margin: 0 auto;
+        display: block;
+        margin-top: 80px;
+    }
+    .mainpage__footer-icons {
+        width: 300px;
+        margin: auto;
+        margin-top: 30px;
+        margin-bottom: 30px;
+        display: flex;
+        justify-content: space-between;
+        & a {
+            width: 50px;
+        }
+    }
+    .mainpage__footer-copyright p {
+        font-size: 14px;
     }
 }
