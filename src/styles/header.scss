@@ -10,6 +10,10 @@
     animation-delay: 1.5s;
 }
 
+.nav {
+    display: none;
+}
+
 .logo {
     background-image: url(../../img/logo2.png);
     background-position: center;
@@ -44,5 +48,17 @@
     & :hover {
         background: url(../../img/hoverbg.png) no-repeat;
         background-size: 100%;
+    }
+}
+
+@media screen and (max-width: 968px) {
+    .header-desktop-nav {
+        display: none;
+    }
+    .nav-toggle {
+        display: block;
+    }
+    .nav {
+        display: block;
     }
 }

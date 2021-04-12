@@ -5,6 +5,7 @@
 @import 'mainpage.scss';
 @import 'shop.scss';
 @import 'footer.scss';
+@import 'burger.scss';
 @import url('https://fonts.googleapis.com/css2?family=Poiret+One&display=swap');
 html {
     background-position: center;
@@ -150,7 +151,7 @@ canvas {
     -webkit-justify-content: space-between;
     justify-content: space-between;
     margin: 0 auto;
-    width: 500px;
+    width: 700px;
     position: relative;
 }
 
@@ -169,7 +170,7 @@ canvas {
     height: 300px;
     width: 500px;
     margin-bottom: 300px;
-    z-index: 9999;
+    z-index: 1;
     animation-name: move;
     animation-duration: 3s;
     animation-fill-mode: both;
@@ -181,5 +182,14 @@ canvas {
     font-family: $font-family;
     font-size: $h1;
     position: absolute;
-    z-index: 9999;
+    z-index: 1;
+}
+
+@media screen and (max-width: 968px) {
+    .main-desktop-nav {
+        display: none;
+    }
+    .nav-toggle {
+        display: block;
+    }
 }
