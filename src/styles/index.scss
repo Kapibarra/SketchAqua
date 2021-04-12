@@ -59,6 +59,7 @@ a:hover {
 
 .btn:hover {
     background: unset;
+    border: none;
 }
 
 .page {
@@ -97,6 +98,7 @@ p {
     color: black;
     font-family: $font-family;
     &:hover {
+        transition: all 0.6s;
         cursor: pointer;
         background-color: rgba(252, 195, 183, 1);
     }
