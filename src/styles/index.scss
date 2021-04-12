@@ -90,6 +90,10 @@ a:hover {
     background-color: rgba(196, 196, 196, 0.6);
     color: black;
     font-family: $font-family;
+    &:hover {
+        cursor: pointer;
+        background-color: rgba(252, 195, 183, 1);
+    }
 }
 
 canvas {
