@@ -42,13 +42,8 @@
     font-size: $commontext;
     z-index: 9999;
     margin-top: 85px;
-    // background: url(../../img/hoverbg.png) no-repeat;
-    // background-size: 100%;
+    margin-right: 5px;
     text-align: center;
-    & :hover {
-        background: url(../../img/hoverbg.png) no-repeat;
-        background-size: 100%;
-    }
 }
 
 @media screen and (max-width: 968px) {
