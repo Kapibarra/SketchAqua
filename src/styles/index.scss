@@ -57,9 +57,12 @@ a:hover {
     border-bottom: 1px solid rgba($color: #000000, $alpha: 0.5);
 }
 
-.btn:hover {
-    background: unset;
+.btn {
     border: none;
+    &:hover {
+        background: unset;
+        border: none;
+    }
 }
 
 .page {
