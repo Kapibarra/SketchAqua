@@ -3,13 +3,14 @@ import CATALOG from '../catalog.js';
 class Products {
     render() {
         let htmlCatalog = ''
-        CATALOG.forEach(({id,name,price,category,photo}) => {
+        CATALOG.forEach(({id,description,price,category,photo}) => {
             console.log(id,name,price,category,photo)
            htmlCatalog += `
            <div class="main__card item ${category} ${id}">
            <div class="main__card-picture">
                <img class="card-image" src="${photo}" alt="picture" oncontextmenu="return false;">
            </div>
+           <p class="main__card-decription">${description}</p>
            <p class="main__card-price">ЦЕНА: ${price}</p>
            <p class="main__card-price">Артикул: ${id}</p>
            <a class="btn" href="/contacts.html"><button class="button">КУПИТЬ</button></a>
