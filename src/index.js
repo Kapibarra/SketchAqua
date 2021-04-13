@@ -74,5 +74,4 @@ window.scrollTo(0, c - c / 18);
 scrollToTopButton.onclick = function (e) {
 e.preventDefault();
 scrollToTop();
-};
-
+}
