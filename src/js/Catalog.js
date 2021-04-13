@@ -8,11 +8,11 @@ class Products {
            htmlCatalog += `
            <div class="main__card item ${category} ${id}">
            <div class="main__card-picture">
-               <img src="${photo}">
+               <img src="${photo}" alt="picture">
            </div>
            <p class="main__card-price">ЦЕНА: ${price}</p>
            <p class="main__card-price">Название: ${name}</p>
-           <a class="btn"><button class="button">BUTTON</button></a>
+           <a class="btn" href="/contacts.html"><button class="button">КУПИТЬ</button></a>
        </div>
            `
         })
