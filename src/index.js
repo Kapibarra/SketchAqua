@@ -1,3 +1,4 @@
+// import Products from './js/Catalog.js'
 import "./styles/index.scss";
 /* BURGER*/
 (function () {
@@ -74,3 +75,4 @@ scrollToTopButton.onclick = function (e) {
 e.preventDefault();
 scrollToTop();
 };
+
