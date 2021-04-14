@@ -278,6 +278,9 @@ canvas {
 }
 
 @media screen and (max-width: 968px) {
+    .logo {
+        margin: 0;
+    }
     .main-desktop-nav {
         display: none;
     }

@@ -16,6 +16,8 @@
     display: flex;
     width: 280px;
     justify-content: space-between;
+    position: relative;
+    z-index: 9999;
 }
 
 .pagefooter {
