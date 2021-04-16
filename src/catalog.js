@@ -448,13 +448,6 @@ const CATALOG = [
     price: 350 + " " + "RUB",
   },
   {
-    id: 66,
-    description: "image1",
-    category: "sketch",
-    photo: "../img/cards/card66.png",
-    price: 350 + " " + "RUB",
-  },
-  {
     id: 67,
     description: "image1",
     category: "sketch",
