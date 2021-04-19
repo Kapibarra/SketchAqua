@@ -128,7 +128,7 @@ const CATALOG = [
   {
     id: 19,
     description: "Размер А4 , акварельная бумага низкой плотности 160г/м2",
-    category: "sketch",
+    category: "aquarelle",
     photo: "../img/cards/card19.png",
     price: 650 + " " + "RUB",
   },
