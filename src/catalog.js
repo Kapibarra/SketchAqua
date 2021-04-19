@@ -514,7 +514,7 @@ const CATALOG = [
   {
     id: 78,
     description: "А5, 148*210, бумага плот.350 г/м2",
-    category: "aquarelle",
+    category: "sketch",
     photo: "../img/cards/card78.png",
     price: 850 + " " + "RUB",
   },
