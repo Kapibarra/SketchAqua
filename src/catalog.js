@@ -528,10 +528,10 @@ const CATALOG = [
   },
   {
     id: 80,
-    description: "image1",
-    category: "sketch",
+    description: "30.5*45.5, хлопок 50%, плот270 г/м2",
+    category: "aquarelle",
     photo: "../img/cards/card63.png",
-    price: 350 + " " + "RUB",
+    price: 1700 + " " + "RUB",
   
   },
 
