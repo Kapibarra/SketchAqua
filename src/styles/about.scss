@@ -23,13 +23,16 @@
         margin-bottom: 25px;
         font-size: $commontext;
     }
+    & a {
+        margin-bottom: 15px;
+    }
 }
 
 .about__main-picture {
-    margin: 0 auto;
+    margin: auto;
     width: 100%;
     max-width: 747px;
-    min-width: 300px;
+    margin-bottom: 0;
     animation-name: filter;
     animation-duration: 4s;
     animation-fill-mode: both;
