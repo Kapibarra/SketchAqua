@@ -13,7 +13,7 @@ class Products {
            <p class="main__card-decription">${description}</p>
            <p class="main__card-price">ЦЕНА: ${price}</p>
            <p class="main__card-price">Артикул: ${id}</p>
-           <a class="btn" href="/contacts.html"><button class="button">КУПИТЬ</button></a>
+           <a class="btn" href="/contacts.html"><button class="button">Заказать</button></a>
        </div>
            `
         })
