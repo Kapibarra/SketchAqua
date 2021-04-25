@@ -20,6 +20,15 @@
     width: 350px;
 }
 
+.contacts__shoplink {
+    display: unset;
+    text-decoration: underline;
+    &:hover {
+        border-top: unset;
+        border-bottom: unset;
+    }
+}
+
 .contacts__main-form-title {
     animation-name: filter;
     animation-duration: 4s;
