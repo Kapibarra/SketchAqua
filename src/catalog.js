@@ -1,5 +1,149 @@
 const CATALOG = [
   {
+    id: 95,
+    description: "А5, 148*210, бумага плот.280 г/м2",
+    category: "sketch",
+    photo: "../img/cards/card95.png",
+    price: 650 + " " + "RUB",
+  
+  },
+  {
+    id: 96,
+    description: "А5, 148*210, бумага плот.280 г/м2",
+    category: "sketch",
+    photo: "../img/cards/card96.png",
+    price: 650 + " " + "RUB",
+  
+  },
+  {
+    id: 97,
+    description: "А5, 148*210, бумага плот.280 г/м2",
+    category: "sketch",
+    photo: "../img/cards/card97.png",
+    price: 650 + " " + "RUB",
+  
+  },
+  {
+    id: 98,
+    description: "А5, 148*210, бумага плот.280 г/м2",
+    category: "sketch",
+    photo: "../img/cards/card98.png",
+    price: 650 + " " + "RUB",
+  
+  },
+  {
+    id: 99,
+    description: "А5, 148*210, бумага плот.280 г/м2",
+    category: "sketch",
+    photo: "../img/cards/card99.png",
+    price: 650 + " " + "RUB",
+  
+  },
+  {
+    id: 100,
+    description: "А5, 148*210, бумага плот.280 г/м2",
+    category: "sketch",
+    photo: "../img/cards/card100.png",
+    price: 650 + " " + "RUB",
+  
+  },
+  {
+    id: 101,
+    description: "А5, 148*210, бумага плот.280 г/м2",
+    category: "sketch",
+    photo: "../img/cards/card101.png",
+    price: 650 + " " + "RUB",
+  
+  },
+  {
+    id: 102,
+    description: "А5, 148*210, бумага плот.280 г/м2",
+    category: "sketch",
+    photo: "../img/cards/card102.png",
+    price: 650 + " " + "RUB",
+  
+  },
+  {
+    id: 103,
+    description: "А5, 148*210, бумага плот.280 г/м2",
+    category: "sketch",
+    photo: "../img/cards/card103.png",
+    price: 650 + " " + "RUB",
+  
+  },
+  {
+    id: 104,
+    description: "А5, 148*210, бумага плот.280 г/м2",
+    category: "sketch",
+    photo: "../img/cards/card104.png",
+    price: 650 + " " + "RUB",
+  
+  },
+  {
+    id: 105,
+    description: "А5, 148*210, бумага плот.280 г/м2",
+    category: "sketch",
+    photo: "../img/cards/card105.png",
+    price: 650 + " " + "RUB",
+  
+  },
+  {
+    id: 106,
+    description: "А5, 148*210, бумага плот.280 г/м2",
+    category: "sketch",
+    photo: "../img/cards/card106.png",
+    price: 650 + " " + "RUB",
+  
+  },
+  {
+    id: 107,
+    description: "А5, 148*210, бумага плот.280 г/м2",
+    category: "sketch",
+    photo: "../img/cards/card107.png",
+    price: 650 + " " + "RUB",
+  
+  },
+  {
+    id: 108,
+    description: "А5, 148*210, бумага плот.280 г/м2",
+    category: "sketch",
+    photo: "../img/cards/card108.png",
+    price: 650 + " " + "RUB",
+  
+  },
+  {
+    id: 109,
+    description: "А5, 148*210, бумага плот.280 г/м2",
+    category: "sketch",
+    photo: "../img/cards/card109.png",
+    price: 650 + " " + "RUB",
+  
+  },
+  {
+    id: 110,
+    description: "А5, 148*210, бумага плот.280 г/м2",
+    category: "sketch",
+    photo: "../img/cards/card110.png",
+    price: 650 + " " + "RUB",
+  
+  },
+  {
+    id: 111,
+    description: "А5, 148*210, бумага плот.280 г/м2",
+    category: "sketch",
+    photo: "../img/cards/card111.png",
+    price: 650 + " " + "RUB",
+  
+  },
+  {
+    id: 112,
+    description: "А5, 148*210, бумага плот.280 г/м2",
+    category: "sketch",
+    photo: "../img/cards/card112.png",
+    price: 650 + " " + "RUB",
+  
+  },
+  {
     id: 1,
     description: "Размер А5 140*198, акварельная бумага низкой плотности 160г/м2",
     category: "sketch",
