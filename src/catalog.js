@@ -1,50 +1,50 @@
 const CATALOG = [
   {
     id: 113,
-    description: "А5, 148*210, бумага плот.350 г/м2,",
+    description: "А5, целлюлоза 100%, плот.300 г/м2",
     category: "sketch",
     photo: "../img/cards/card113.png",
-    price: 850 + " " + "RUB",
+    price: 650 + " " + "RUB",
   
   },
   {
     id: 114,
-    description: "А5, 148*210, бумага плот.350 г/м2,",
+    description: "А4, целлюлоза 100%, плот.300 г/м2",
     category: "sketch",
     photo: "../img/cards/card114.png",
-    price: 850 + " " + "RUB",
+    price: 900 + " " + "RUB",
   
   },
   {
     id: 115,
-    description: "А5, 148*210, бумага плот.350 г/м2,",
+    description: "А5, 148*210, бумага плот.280 г/м2",
     category: "sketch",
-    photo: "../img/cards/card116.png",
-    price: 850 + " " + "RUB",
+    photo: "../img/cards/card115.png",
+    price: 650 + " " + "RUB",
   
   },
   {
     id: 116,
-    description: "А5, 148*210, бумага плот.350 г/м2,",
-    category: "sketch",
+    description: "23*23, хлопок 50%, плот.250 г/м2",
+    category: "aquarelle",
     photo: "../img/cards/card116.png",
-    price: 850 + " " + "RUB",
+    price: 1000 + " " + "RUB",
   
   },
   {
     id: 117,
-    description: "А5, 148*210, бумага плот.350 г/м2,",
-    category: "sketch",
+    description: "23*23, хлопок 50%, плот.250 г/м2,",
+    category: "aquarelle",
     photo: "../img/cards/card117.png",
-    price: 850 + " " + "RUB",
+    price: 1000 + " " + "RUB",
   
   },
   {
     id: 118,
-    description: "А5, 148*210, бумага плот.350 г/м2,",
-    category: "sketch",
+    description: "23*23, хлопок 50%, плот.250 г/м2",
+    category: "aquarelle",
     photo: "../img/cards/card118.png",
-    price: 850 + " " + "RUB",
+    price: 1000 + " " + "RUB",
   
   },
   {
