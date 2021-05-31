@@ -1,0 +1,30 @@
+.interriors__first-block {
+    width: 100%;
+    max-width: 1400px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.interrior__first-block-coruselle {
+    width: 600px;
+}
+
+.interrior__first-block-description {
+    width: 600px;
+}
+
+.owl-carousel {
+    width: 600px !important;
+}
+
+.owl-dot {
+    width: 10px !important;
+    height: 10px !important;
+    margin: 5px;
+    border-radius: 10px;
+    background-color: black !important;
+}
+
+.active {
+    background-color: rgb(223, 255, 255) !important;
+}

@@ -19,10 +19,11 @@
     <meta property="og:description" content="Акварельные скетчи Москва, Россия">
     <link rel="icon" src="src/favicon.ico" type="image/x-icon">
     <link rel="shortcut icon" href="src/favicon.ico" type="image/x-icon">
-    <link rel="stylesheet" href="src/css/owl.carousel.css">
-    <link rel="stylesheet" href="src\css\owl.carousel.min.css">
-    <script src="jquery.min.js"></script>
-    <script src="src/js/owl.carousel.min.js"></script>
+    <link rel="stylesheet" href="../src/css/owl.carousel.css">
+    <link rel="stylesheet" href="../src\css\owl.carousel.min.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
+
     <title>Художница Светлана Рахимова</title>
 </head>
 
@@ -40,8 +41,19 @@
         </header>
         <main>
             <div class="interriors__first-block">
-                <div class="interrior__first-block-coruselle"></div>
-                <div class="interrior__first-block-description"></div>
+                <div class="interrior__first-block-coruselle">
+                    <div class="owl-carousel">
+                        <img src="../img/wall1.png"> </img>
+                        <img src="../img/wall2.png"> </img>
+                        <img src="../img/wall3.png"> </img>
+
+                    </div>
+                </div>
+                <div class="interrior__first-block-description">
+                    <p class="">Вы планируете ремонт или уже сделали его, но чего-то не хватает... Какого-то настроения, главного ощущения от обстановки, ее изюминки: оно создается картинами. Украшать интерьер с помощью изображений всегда было одним из лучших способов
+                        создать индивидуальное пространство, обладающее своим неповторимым настроением и уютом. Не нужно думать, что купить картины для интерьера – это очень дорого. Сегодня позволить их себе без проблем может каждый человек. Можно выбрать
+                        самые разные виды изображений: живые полотна, репродукции, фотографии, графику… Осталось только правильно выбрать картину, которая подходит к дизайну комнаты и создает подходящее настроение.</p>
+                </div>
             </div>
             <div class="interriors__second-block">
                 <div class="interrior__second-block-coruselle"></div>
@@ -89,9 +101,14 @@
             <span class="screen-reader-text">Back to top</span>
         </a>
     </div>
+    <script src="src/js/owl.carousel.min.js"></script>
     <script>
         $(document).ready(function() {
-            $(".owl-carousel").owlCarousel();
+            $(".owl-carousel").owlCarousel({
+                items: 1,
+                nav: true,
+                dots: true,
+            });
         });
     </script>
 
