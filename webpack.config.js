@@ -80,6 +80,14 @@ module.exports = {
                 collapseWhitespace: isProd,
             },
         }),
+        new HTMLWebpackPlugin({
+            filename: "interriors.html",
+            template: "interriors.html",
+            minify: {
+                removeComments: isProd,
+                collapseWhitespace: isProd,
+            },
+        }),
         new MiniCssExtractPlugin({
             filename: filename("css"),
         }),
