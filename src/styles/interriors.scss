@@ -69,10 +69,14 @@
     font-size: $buttonfont;
     font-weight: 500;
     align-self: flex-end;
+    transform: scale(1);
+    transition: all 0.4s;
     &:hover {
         transition: all 0.6s;
+        transform: scale(1.05);
         cursor: pointer;
         background-color: rgba(252, 195, 183, 1);
+        transition: all 0.4s;
     }
 }
 
