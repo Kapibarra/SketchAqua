@@ -20,27 +20,73 @@
 }
 
 .interrior__block-description-text {
-    padding-top: 50px;
+    padding-top: 10px;
 }
 
 .interrior__first-block-coruselle {
     width: 600px;
 }
 
-// .interrior__first-block-description {
-//     width: 600px;
-//     height: 600px;
-// }
-// .interrior__second-block-description {
-//     width: 600px;
-//     height: 600px;
-// }
-// .interrior__third-block-description {
-//     width: 600px;
-//     height: 600px;
-// }
+.interrior__first-block-description {
+    width: 600px;
+    height: 600px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.interrior__second-block-description {
+    width: 600px;
+    height: 600px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.interrior__third-block-description {
+    width: 600px;
+    height: 600px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.interriors-desc-title {
+    align-self: flex-start;
+    vertical-align: bottom;
+}
+
+.interrior-button {
+    display: block;
+    margin-top: 15px;
+    width: 230px;
+    height: 40px;
+    border: none;
+    border-radius: 3px;
+    background-color: rgba(196, 196, 196, 0.6);
+    color: black;
+    font-family: $font-family;
+    font-size: $buttonfont;
+    font-weight: 500;
+    align-self: flex-end;
+    &:hover {
+        transition: all 0.6s;
+        cursor: pointer;
+        background-color: rgba(252, 195, 183, 1);
+    }
+}
+
+.interrior__btn-link {
+    border: none !important;
+    &:hover {
+        border: none !important;
+        border-top: unset !important;
+        border-bottom: unset !important;
+    }
+}
+
 .owl-carousel {
-    width: 600px !important;
+    width: 620px !important;
 }
 
 .owl-dot {
@@ -49,7 +95,7 @@
     margin: 5px;
     border: 1px solid rgb(22, 22, 22) !important;
     border-radius: 10px;
-    background-color: black !important;
+    background-color: rgb(248, 248, 248) !important;
 }
 
 .owl-dots {
@@ -77,5 +123,5 @@
 }
 
 .active {
-    background-color: rgb(226, 226, 226) !important;
+    background-color: rgb(63, 63, 63) !important;
 }
