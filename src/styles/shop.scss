@@ -113,3 +113,15 @@ select {
         filter: grayscale(0);
     }
 }
+
+@media screen and (max-width: 414px) {
+    .main__card {
+        transition: all 0.4s;
+        transform: scale(1);
+        &:hover {
+            transition: all 0.4s;
+            transform: unset;
+            background-color: #ffffff;
+        }
+    }
+}
