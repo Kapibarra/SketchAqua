@@ -166,7 +166,30 @@
     .first__block-title {
         text-align: center;
     }
+    .second__block-title {
+        text-align: center;
+    }
     .third__block-title {
         text-align: center;
+    }
+    .interrior__block-description-text {
+        width: 100%;
+        max-width: 1200px;
+        margin: 0 auto;
+    }
+    .interrior__first-block-description {
+        width: unset;
+        height: 400px;
+        display: flex;
+    }
+    .interrior__second-block-description {
+        width: unset;
+        height: 400px;
+        display: flex;
+    }
+    .interrior__third-block-description {
+        width: unset;
+        height: 400px;
+        display: flex;
     }
 }
