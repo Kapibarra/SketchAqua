@@ -194,3 +194,20 @@
         display: flex;
     }
 }
+
+@media screen and (max-width: 720px) {
+    .owl-item>img {
+        width: 100%;
+        max-width: 400px;
+        margin: 0 auto;
+    }
+    .interrior__first-block-coruselle {
+        overflow-x: hidden;
+    }
+    .interrior__second-block-coruselle {
+        overflow-x: hidden;
+    }
+    .interrior__third-block-coruselle {
+        overflow-x: hidden;
+    }
+}

@@ -75,3 +75,8 @@ scrollToTopButton.onclick = function (e) {
 e.preventDefault();
 scrollToTop();
 }
+
+
+if (window.screen.width <= 648) {
+document.getElementsByClassName("owl-item")
+}
