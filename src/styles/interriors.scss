@@ -205,7 +205,6 @@
     }
     .mobile-slider {
         display: block;
-        &>img {}
     }
     .slick-slide>img {
         width: 100%;
@@ -221,7 +220,7 @@
         overflow-x: hidden;
     }
     .slick-dots li button:before {
-        font-size: 50px !important;
+        font-size: 20px !important;
     }
     .page {
         box-sizing: border-box;
