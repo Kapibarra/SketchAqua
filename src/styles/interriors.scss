@@ -140,3 +140,33 @@
 .active {
     background-color: rgb(63, 63, 63) !important;
 }
+
+@media screen and (max-width: 1268px) {
+    .interriors__first-block {
+        width: 100%;
+        max-width: 1200px;
+        display: block;
+    }
+    .interriors__second-block {
+        width: 100%;
+        max-width: 1200px;
+        display: block;
+    }
+    .interriors__third-block {
+        width: 100%;
+        max-width: 1200px;
+        display: block;
+    }
+    .owl-carousel {
+        margin: 0 auto !important;
+    }
+    .interrior__first-block-coruselle {
+        width: unset;
+    }
+    .first__block-title {
+        text-align: center;
+    }
+    .third__block-title {
+        text-align: center;
+    }
+}
