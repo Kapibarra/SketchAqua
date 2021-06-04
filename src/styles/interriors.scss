@@ -92,6 +92,10 @@
     }
 }
 
+.mobile-slider {
+    display: none;
+}
+
 .interrior__btn-link {
     border: none !important;
     &:hover {
@@ -199,6 +203,14 @@
     .desktop-slider {
         display: none !important;
     }
+    .mobile-slider {
+        display: block;
+        &>img {}
+    }
+    .slick-slide>img {
+        width: 100%;
+        max-width: 550px;
+    }
     .interrior__first-block-coruselle {
         overflow-x: hidden;
     }
@@ -207,5 +219,11 @@
     }
     .interrior__third-block-coruselle {
         overflow-x: hidden;
+    }
+    .slick-dots li button:before {
+        font-size: 50px !important;
+    }
+    .page {
+        box-sizing: border-box;
     }
 }
