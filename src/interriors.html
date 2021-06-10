@@ -128,7 +128,11 @@
                 <input type="text" class="form-field wow animate__animated animate__fadeInUp" placeholder="Ваше имя" name="name">
                 <input type="email" class="form-field wow animate__animated animate__fadeInUp" placeholder="Ваш E-mail" name="_replyto">
                 <input type="text" class="form-field wow animate__animated animate__fadeInUp" placeholder="Сообщение" name="message">
-                <button type="submit" class="wow animate__animated animate__fadeInUp">Отправить</button>
+                <button type="submit" class="wow animate__animated animate__fadeInUp" name="sendNew" id="sendNew">Отправить</button>
+                <div class="terms">
+                    <input type="checkbox" checked onchange="document.getElementById('sendNew').disabled = !this.checked;" />
+                    <a class="private-policy" href="#">Политика конфиденциальности</a>
+                </div>
             </form>
         </main>
         <footer class="pagefooter a1">
