@@ -52,7 +52,13 @@
                 <input type="text" class="form-field animation a3" placeholder="Ваше имя" name="name">
                 <input type="email" class="form-field animation a4" placeholder="Ваш E-mail" name="_replyto">
                 <input type="text" class="form-field animation a5" placeholder="Сообщение" name="message">
-                <button type="submit" class="animation a6">Отправить</button>
+                <button type="submit" class="animation a6" name="sendNewSms" id="sendNewSms">Отправить</button>
+                <!-- <input type="submit" name="sendNewSms" class="inputButton" id="sendNewSms" value="Send" /> -->
+                <div class="terms">
+                    <input type="checkbox" checked onchange="document.getElementById('sendNewSms').disabled = !this.checked;" />
+                    <a class="private-policy" href="#">Политика конфиденциальности</a>
+                </div>
+
             </form>
         </main>
         <footer class="pagefooter a1">
