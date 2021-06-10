@@ -88,6 +88,14 @@ module.exports = {
                 collapseWhitespace: isProd,
             },
         }),
+        new HTMLWebpackPlugin({
+            filename: "policy.html",
+            template: "policy.html",
+            minify: {
+                removeComments: isProd,
+                collapseWhitespace: isProd,
+            },
+        }),
         new MiniCssExtractPlugin({
             filename: filename("css"),
         }),
