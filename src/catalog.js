@@ -1,4 +1,108 @@
 const CATALOG = [
+    {
+    id: 119,
+    description: "23*23, хлопок 50%, плот.250 г/м2",
+    category: "aquarelle",
+    photo: "../img/cards/card119.png",
+    price: 1000 + " " + "RUB",
+  
+  },
+    {
+    id: 120,
+    description: "23*23, хлопок 50%, плот.250 г/м2",
+    category: "aquarelle",
+    photo: "../img/cards/card120.png",
+    price: 1000 + " " + "RUB",
+  
+  },
+    {
+    id: 121,
+    description: "23*23, хлопок 50%, плот.250 г/м2",
+    category: "aquarelle",
+    photo: "../img/cards/card121.png",
+    price: 1000 + " " + "RUB",
+  
+  },
+    {
+    id: 122,
+    description: "23*23, хлопок 50%, плот.250 г/м2",
+    category: "aquarelle",
+    photo: "../img/cards/card122.png",
+    price: 1000 + " " + "RUB",
+  
+  },
+    {
+    id: 123,
+    description: "23*23, хлопок 50%, плот.250 г/м2",
+    category: "aquarelle",
+    photo: "../img/cards/card123.png",
+    price: 1000 + " " + "RUB",
+  
+  },
+    {
+    id: 124,
+    description: "23*23, хлопок 50%, плот.250 г/м2",
+    category: "aquarelle",
+    photo: "../img/cards/card124.png",
+    price: 1000 + " " + "RUB",
+  
+  },
+    {
+    id: 125,
+    description: "23*23, хлопок 50%, плот.250 г/м2",
+    category: "aquarelle",
+    photo: "../img/cards/card125.png",
+    price: 1000 + " " + "RUB",
+  
+  },
+    {
+    id: 126,
+    description: "23*23, хлопок 50%, плот.250 г/м2",
+    category: "aquarelle",
+    photo: "../img/cards/card126.png",
+    price: 1000 + " " + "RUB",
+  
+  },
+    {
+    id: 127,
+    description: "23*23, хлопок 50%, плот.250 г/м2",
+    category: "aquarelle",
+    photo: "../img/cards/card127.png",
+    price: 1000 + " " + "RUB",
+  
+  },
+    {
+    id: 128,
+    description: "23*23, хлопок 50%, плот.250 г/м2",
+    category: "aquarelle",
+    photo: "../img/cards/card128.png",
+    price: 1000 + " " + "RUB",
+  
+  },
+    {
+    id: 129,
+    description: "23*23, хлопок 50%, плот.250 г/м2",
+    category: "aquarelle",
+    photo: "../img/cards/card129.png",
+    price: 1000 + " " + "RUB",
+  
+  },
+    {
+    id: 130,
+    description: "23*23, хлопок 50%, плот.250 г/м2",
+    category: "aquarelle",
+    photo: "../img/cards/card130.png",
+    price: 1000 + " " + "RUB",
+  
+  },
+    {
+    id: 131,
+    description: "23*23, хлопок 50%, плот.250 г/м2",
+    category: "aquarelle",
+    photo: "../img/cards/card131.png",
+    price: 1000 + " " + "RUB",
+  
+  },
   {
     id: 113,
     description: "А5, целлюлоза 100%, плот.300 г/м2",
