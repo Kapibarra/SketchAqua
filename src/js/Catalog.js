@@ -11,6 +11,7 @@ class Products {
            <img class="card-image" src="${photo}" oncontextmenu="return false"/>
            </div>
            <div class="main__card">
+           <hr class="main__card-split-line"/>
            <p class="main__card-decription">${description}</p>
            <p class="main__card-price">ЦЕНА: <span class="highlight">${price}</span></p>
            <p class="main__card-price">Артикул: ${id}</p>
