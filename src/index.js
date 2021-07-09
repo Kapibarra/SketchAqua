@@ -76,3 +76,9 @@ e.preventDefault();
 scrollToTop();
 }
 
+function bigCard() {
+  const card = document.querySelector(".card-image")
+  card.classList.toggle('big')
+}
+document.getElementsByName('.card-image').addEventListener('click', bigCard)
+

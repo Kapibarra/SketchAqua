@@ -36,19 +36,13 @@ select {
     animation-fill-mode: both;
     animation-delay: 0.5s;
     border: none;
-    transition: all 0.4s;
-    transform: scale(1);
-    &:hover {
-        transition: all 0.4s;
-        transform: scale(1.7);
-        z-index: 5;
-        padding: 5px;
-        background-color: #ffffff;
-    }
 }
 
 .card-image {
     width: 265px;
+    &:hover {
+        cursor: pointer;
+    }
 }
 
 .main__card-decription {
