@@ -52,8 +52,11 @@ select {
     }
 }
 
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400;500;600;700&display=swap');
 .main__card-decription {
-    font-size: 16px;
+    font-family: 'Caveat', cursive;
+    color: rgb(48, 48, 48);
+    font-size: 25px;
     text-align: center;
 }
 
