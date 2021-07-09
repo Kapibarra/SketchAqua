@@ -87,7 +87,17 @@
         </a>
     </div>
     <script type="module" src="src/js/Catalog.js"></script>
-    <script src="node_modules/zooming/build/zooming.min.js"></script>
+    <script src="https://unpkg.com/zooming/build/zooming.min.js"></script>
+
+    <script>
+        // Listen to images after DOM content is fully loaded
+        document.addEventListener('DOMContentLoaded', function() {
+            new Zooming({
+                // options...
+            }).listen('.card-image')
+        });
+    </script>
+
 </body>
 
 </html>

@@ -111,11 +111,21 @@ select {
 @media screen and (max-width: 414px) {
     .main__card {
         transition: all 0.4s;
-        transform: scale(1);
-        &:hover {
-            transition: all 0.4s;
-            transform: unset;
-            background-color: #ffffff;
-        }
     }
+}
+
+.grid {
+    column-count: 2;
+    column-gap: 1rem;
+}
+
+figure {
+    display: inline-block;
+    margin: 0 0 0 0;
+    width: 100%;
+}
+
+img {
+    width: 100%;
+    height: auto;
 }
