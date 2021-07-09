@@ -113,19 +113,3 @@ select {
         transition: all 0.4s;
     }
 }
-
-.grid {
-    column-count: 2;
-    column-gap: 1rem;
-}
-
-figure {
-    display: inline-block;
-    margin: 0 0 0 0;
-    width: 100%;
-}
-
-img {
-    width: 100%;
-    height: auto;
-}

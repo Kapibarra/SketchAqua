@@ -6,14 +6,16 @@ class Products {
     CATALOG.forEach(({ id, description, price, category, photo }) => {
     //   console.log(id, name, price, category, photo);
       htmlCatalog += `
-           <div class="main__card item ${category} ${id}">
+<div class="item ${category} ${id}">
            <div class="main__card-picture">
            <img class="card-image" src="${photo}" />
            </div>
+           <div class="main__card">
            <p class="main__card-decription">${description}</p>
            <p class="main__card-price">ЦЕНА: ${price}</p>
            <p class="main__card-price">Артикул: ${id}</p>
            <a class="btn" href="/contacts.html"><button class="button">Заказать</button></a>
+       </div>
        </div>
            `;
     });
