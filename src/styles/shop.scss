@@ -39,7 +39,8 @@ select {
 }
 
 .item {
-    margin: 10px auto;
+    margin: 0 auto;
+    margin-top: 50px;
     border: 10px double rgba(252, 195, 183, 0.3);
     box-shadow: 0 3px 2.3px rgba(0, 0, 0, 0.019), 0 6.5px 5.4px rgba(0, 0, 0, 0.029), 0 10.9px 9.9px rgba(0, 0, 0, 0.034), 0 17.5px 17.5px rgba(0, 0, 0, 0.036), 0 30.3px 32.6px rgba(0, 0, 0, 0.041), 0 74px 80px rgba(0, 0, 0, 0.07);
 }

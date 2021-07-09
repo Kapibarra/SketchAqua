@@ -8,7 +8,7 @@ class Products {
       htmlCatalog += `
 <div class="item ${category} ${id}">
            <div class="main__card-picture">
-           <img class="card-image" src="${photo}" />
+           <img class="card-image" src="${photo}" oncontextmenu="return false"/>
            </div>
            <div class="main__card">
            <p class="main__card-decription">${description}</p>
