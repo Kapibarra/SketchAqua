@@ -38,6 +38,10 @@ select {
     border: none;
 }
 
+.item {
+    margin: 0 auto;
+}
+
 .card-image {
     width: 265px;
     &:hover {
@@ -55,6 +59,13 @@ select {
     text-align: center;
     font-size: 14px;
     margin: 0 auto;
+}
+
+.highlight {
+    font-family: 'Encode Sans SC', sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+    color: rgba(252, 195, 183, 1);
 }
 
 .animation {
