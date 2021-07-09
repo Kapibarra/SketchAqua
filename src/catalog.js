@@ -33,7 +33,7 @@ const CATALOG = [
   },
     {
     id: 123,
-    description: "А4, целлюлоза 100%, плот.300 г/м2",
+    description: "Серия: Сочи - 2021, А4, целлюлоза 100%, плот.300 г/м2",
     category: "aquarelle",
     photo: "../img/cards/card123.png",
     price: 900 + " " + "RUB",
@@ -41,7 +41,7 @@ const CATALOG = [
   },
     {
     id: 124,
-    description: "А5, целлюлоза 100%, плот.300 г/м2",
+    description: "Серия: Сочи - 2021, А5, целлюлоза 100%, плот.300 г/м2",
     category: "sketch",
     photo: "../img/cards/card124.png",
     price: 850 + " " + "RUB",
@@ -49,7 +49,7 @@ const CATALOG = [
   },
     {
     id: 125,
-    description: "А5, целлюлоза 100%, плот.300 г/м2",
+    description: "Серия: Сочи - 2021, А5, целлюлоза 100%, плот.300 г/м2",
     category: "sketch",
     photo: "../img/cards/card125.png",
     price: 850 + " " + "RUB",
@@ -57,7 +57,7 @@ const CATALOG = [
   },
     {
     id: 126,
-    description: "А4, целлюлоза 100%, плот.300 г/м2",
+    description: "Серия: Сочи - 2021, А4, целлюлоза 100%, плот.300 г/м2",
     category: "aquarelle",
     photo: "../img/cards/card126.png",
     price: 1300 + " " + "RUB",
@@ -65,7 +65,7 @@ const CATALOG = [
   },
     {
     id: 127,
-    description: "А4, целлюлоза 100%, плот.300 г/м2",
+    description: "Серия: Сочи - 2021, А4, целлюлоза 100%, плот.300 г/м2",
     category: "sketch",
     photo: "../img/cards/card127.png",
     price: 1600 + " " + "RUB",
@@ -73,7 +73,7 @@ const CATALOG = [
   },
     {
     id: 128,
-    description: "А5, целлюлоза 100%, плот.300 г/м2",
+    description: "Серия: Сочи - 2021, А5, целлюлоза 100%, плот.300 г/м2",
     category: "sketch",
     photo: "../img/cards/card128.png",
     price: 850 + " " + "RUB",
