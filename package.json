@@ -8,7 +8,8 @@
         "inputmask": "^5.0.5",
         "just-validate": "^1.5.0",
         "normalize.css": "^8.0.1",
-        "unsplash-js": "^7.0.4"
+        "unsplash-js": "^7.0.4",
+        "zooming": "^2.1.1"
     },
     "devDependencies": {
         "@babel/cli": "^7.13.0",

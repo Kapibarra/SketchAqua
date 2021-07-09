@@ -301,6 +301,7 @@ const CATALOG = [
     category: "sketch",
     photo: "../img/cards/card1.png",
     price: 350 + " " + "RUB",
+    fullsize: "../img/cards/card1big.png",
   },
   {
     id: 2,

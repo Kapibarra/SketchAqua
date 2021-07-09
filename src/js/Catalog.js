@@ -8,7 +8,7 @@ class Products {
       htmlCatalog += `
            <div class="main__card item ${category} ${id}">
            <div class="main__card-picture">
-           <img class="card-image" src="${photo}" alt="picture">
+           <img class="card-image" src="${photo}" data-original="${photo}" />
            </div>
            <p class="main__card-decription">${description}</p>
            <p class="main__card-price">ЦЕНА: ${price}</p>
@@ -23,6 +23,15 @@ class Products {
 
 const productsPage = new Products();
 productsPage.render();
+
+document.addEventListener('DOMContentLoaded', function () {
+  const zooming = new Zooming({
+    zIndex: 3,
+    bgOpacity: 0.5,
+  })
+
+  zooming.listen('.card-image')
+})
 
 /* <div class="main__card item aquarelle">
 <div class="main__card-picture">
