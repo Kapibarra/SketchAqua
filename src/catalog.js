@@ -1,7 +1,15 @@
 const CATALOG = [
+  {
+    id: 132,
+    description: "А4, целлюлоза 100%, плот. 300 г/м2",
+    category: "aquarelle",
+    photo: "../img/cards/card132.png",
+    price: 1100 + " " + "RUB",
+  
+  },
     {
     id: 119,
-    description: "Целлюлоза 100%, плот.300 г/м2",
+    description: " A4 Целлюлоза 100%, плот.300 г/м2",
     category: "sketch",
     photo: "../img/cards/card119.png",
     price: 900 + " " + "RUB",
