@@ -32,10 +32,10 @@ const CATALOG = [
   
   },
   {
-    id: 138,
+    id: 148,
     description: "А5, целлюлоза 100%, плот.300 г/м2",
     category: "sketch",
-    photo: "../img/cards/card138.png",
+    photo: "../img/cards/card148.png",
     price: 650 + " " + "RUB",
   
   },
