@@ -29,6 +29,28 @@
     }
 }
 
+.about__main-diploms {
+    width: 100%;
+    max-width: 1100px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin: 0 auto;
+    justify-content: space-between;
+}
+
+.about__main-diplom-item {
+    width: 100%;
+    max-width: 450px;
+    margin: 0 auto;
+    margin-top: 30px;
+    & img {
+        width: 100%;
+        max-width: 450px;
+        margin: 0 auto;
+    }
+}
+
 .about__main-picture {
     margin: auto;
     width: 100%;
