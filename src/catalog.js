@@ -1,5 +1,61 @@
 const CATALOG = [
   {
+    id: 149,
+    description: "А5, целлюлоза 100%, плот.300 г/м2",
+    category: "sketch",
+    photo: "../img/cards/card149.png",
+    price: 650 + " " + "RUB",
+  
+  },
+  {
+    id: 150,
+    description: "А5, целлюлоза 100%, плот.300 г/м2",
+    category: "sketch",
+    photo: "../img/cards/card150.png",
+    price: 650 + " " + "RUB",
+  
+  },
+  {
+    id: 151,
+    description: "А5, целлюлоза 100%, плот.300 г/м2",
+    category: "sketch",
+    photo: "../img/cards/card151.png",
+    price: 650 + " " + "RUB",
+  
+  },
+  {
+    id: 152,
+    description: "А5, целлюлоза 100%, плот.300 г/м2",
+    category: "sketch",
+    photo: "../img/cards/card152.png",
+    price: 650 + " " + "RUB",
+  
+  },
+  {
+    id: 153,
+    description: "А5, целлюлоза 100%, плот.300 г/м2",
+    category: "sketch",
+    photo: "../img/cards/card153.png",
+    price: 650 + " " + "RUB",
+  
+  },
+  {
+    id: 154,
+    description: "А5, целлюлоза 100%, плот.300 г/м2",
+    category: "sketch",
+    photo: "../img/cards/card154.png",
+    price: 650 + " " + "RUB",
+  
+  },
+  {
+    id: 155,
+    description: "А5, целлюлоза 100%, плот.300 г/м2",
+    category: "sketch",
+    photo: "../img/cards/card155.png",
+    price: 650 + " " + "RUB",
+  
+  },
+  {
     id: 144,
     description: "А5, целлюлоза 100%, плот.300 г/м2",
     category: "sketch",
