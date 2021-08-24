@@ -1,10 +1,10 @@
 const CATALOG = [
   {
     id: 149,
-    description: "А5, целлюлоза 100%, плот.300 г/м2",
+    description: "А5, 148*210, бумага плот.350 г/м2",
     category: "sketch",
     photo: "../img/cards/card149.png",
-    price: 650 + " " + "RUB",
+    price: 850 + " " + "RUB",
   
   },
   {
@@ -17,10 +17,10 @@ const CATALOG = [
   },
   {
     id: 151,
-    description: "А5, целлюлоза 100%, плот.300 г/м2",
+    description: "А5, 140*198, бумага плот. 160 г/м2",
     category: "sketch",
     photo: "../img/cards/card151.png",
-    price: 650 + " " + "RUB",
+    price: 350 + " " + "RUB",
   
   },
   {
@@ -33,10 +33,10 @@ const CATALOG = [
   },
   {
     id: 153,
-    description: "А5, целлюлоза 100%, плот.300 г/м2",
+    description: "А5, 148*210, бумага плот.350 г/м2",
     category: "sketch",
     photo: "../img/cards/card153.png",
-    price: 650 + " " + "RUB",
+    price: 850 + " " + "RUB",
   
   },
   {
