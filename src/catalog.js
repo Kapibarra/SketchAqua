@@ -1,5 +1,61 @@
 const CATALOG = [
   {
+    id: 156,
+    description: "А5, 148*210, бумага плот.350 г/м2",
+    category: "sketch",
+    photo: "../img/cards/card156.png",
+    price: 850 + " " + "RUB",
+  
+  },
+  {
+    id: 157,
+    description: "А5, 148*210, бумага плот.350 г/м2",
+    category: "sketch",
+    photo: "../img/cards/card157.png",
+    price: 850 + " " + "RUB",
+  
+  },
+  {
+    id: 158,
+    description: "А5, 148*210, бумага плот.350 г/м2",
+    category: "sketch",
+    photo: "../img/cards/card158.png",
+    price: 850 + " " + "RUB",
+  
+  },
+  {
+    id: 159,
+    description: "А5, 148*210, бумага плот.350 г/м2",
+    category: "sketch",
+    photo: "../img/cards/card159.png",
+    price: 850 + " " + "RUB",
+  
+  },
+  {
+    id: 160,
+    description: "А5, 148*210, бумага плот.350 г/м2",
+    category: "sketch",
+    photo: "../img/cards/card160.png",
+    price: 850 + " " + "RUB",
+  
+  },
+  {
+    id: 161,
+    description: "А5, 148*210, бумага плот.350 г/м2",
+    category: "sketch",
+    photo: "../img/cards/card161.png",
+    price: 850 + " " + "RUB",
+  
+  },
+  {
+    id: 162,
+    description: "А5, 148*210, бумага плот.350 г/м2",
+    category: "sketch",
+    photo: "../img/cards/card162.png",
+    price: 850 + " " + "RUB",
+  
+  },
+  {
     id: 149,
     description: "А5, 148*210, бумага плот.350 г/м2",
     category: "sketch",
