@@ -1,5 +1,53 @@
 const CATALOG = [
   {
+    id: 163,
+    description: "А5, 140*198, бумага плот. 160 г/м2",
+    category: "sketch",
+    photo: "../img/cards/card163.png",
+    price: 350 + " " + "RUB",
+  
+  },
+  {
+    id: 164,
+    description: "А5, 140*198, бумага плот. 160 г/м2",
+    category: "sketch",
+    photo: "../img/cards/card164.png",
+    price: 350 + " " + "RUB",
+  
+  },
+  {
+    id: 165,
+    description: "А5, 140*198, бумага плот. 160 г/м2",
+    category: "sketch",
+    photo: "../img/cards/card165.png",
+    price: 350 + " " + "RUB",
+  
+  },
+  {
+    id: 166,
+    description: "А5, 140*198, бумага плот. 160 г/м2",
+    category: "sketch",
+    photo: "../img/cards/card166.png",
+    price: 350 + " " + "RUB",
+  
+  },
+  {
+    id: 167,
+    description: "А5, 140*198, бумага плот. 160 г/м2",
+    category: "sketch",
+    photo: "../img/cards/card167.png",
+    price: 350 + " " + "RUB",
+  
+  },
+  {
+    id: 168,
+    description: "А5, 140*198, бумага плот. 160 г/м2",
+    category: "sketch",
+    photo: "../img/cards/card168.png",
+    price: 350 + " " + "RUB",
+  
+  },
+  {
     id: 156,
     description: "А5, 140*198,бумага плот. 160 г/м2,",
     category: "sketch",
