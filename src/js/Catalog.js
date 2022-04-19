@@ -13,7 +13,7 @@ class Products {
            <div class="main__card">
            <hr class="main__card-split-line"/>
            <p class="main__card-decription">${description}</p>
-           <p class="main__card-price">ЦЕНА: <span class="highlight">${price}</span></p>
+
            <p class="main__card-price">Артикул: ${id}</p>
            <a class="btn" href="/contacts.html"><button class="button">Заказать</button></a>
        </div>
@@ -39,3 +39,5 @@ productsPage.render();
  */
 
 {/* <img class="card-image" src="${photo}" alt="picture"> */}
+
+{/* <p class="main__card-price">ЦЕНА: <span class="highlight">${price}</span></p> */}
